@@ -1,0 +1,2 @@
+fflib-ext-common-samplecode
+===========================
