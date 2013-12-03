@@ -38,5 +38,20 @@
             <target name="-before-build"/>
             <target name="-after-build"/>
     -->
+    <target name="-after-sass">
+        <foreach target="suffix-body-classes" param="input">
+            <path>
+                <fileset dir="${build.dir}/resources/" includes="*.css" />
+            </path>
+        </foreach>
+    </target>
 
+    <target name="suffix-body-classes">
+        <echo>Suffixing body classes in ${input}</echo>
+        <replaceregexp file="${input}"
+            match="\.[A-Za-z]\-body\s?\{"
+            flags="g"
+            replace="body-buildxml {"
+        />
+    </target>
 </project>

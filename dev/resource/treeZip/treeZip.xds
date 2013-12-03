@@ -1,0 +1,46 @@
+{
+    "name": "treeZip",
+    "settings": {
+        "cmd": {},
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "customPath": ""
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1337,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000003,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "12a22a3d-85da-4100-9c46-f205c684a5e4"
+        ],
+        "store": [
+            "ecbab9bf-e5b9-4d4e-9979-fb18b49abfff"
+        ],
+        "controller": [],
+        "model": [
+            "a8fd361f-9a26-4ee0-ae8c-8f8ab3bcef5c"
+        ],
+        "resource": [
+            "a49c4d25-17eb-4858-a462-c3aea4365627"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

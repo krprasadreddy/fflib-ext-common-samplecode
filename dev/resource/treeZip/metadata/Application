@@ -1,0 +1,39 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Account"
+        ],
+        "name": "Tree",
+        "stores": [
+            "AccountsStore"
+        ],
+        "views": [
+            "Grid"
+        ]
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "var cell = Ext.DomQuery.select('.noSidebarCell')[0];",
+                    "Ext.create('Tree.view.Grid', {renderTo: cell});"
+                ]
+            },
+            "designerId": "5c7f2473-0e5f-453f-b188-327bad9a7c03"
+        }
+    ]
+}
