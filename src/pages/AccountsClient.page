@@ -1,0 +1,9 @@
+<apex:page controller="AccountsController" sidebar="false">
+	
+	<c:extBootstrap applicationName="Tree" staticResource="{!$Resource.treeZip}">
+		window['$RemoteAction'] = window['$RemoteAction'] || {};
+		$RemoteAction.AccountsController = $RemoteAction.AccountsController || {};
+		$RemoteAction.AccountsController.readAccounts = '{!$RemoteAction.AccountsController.readAccounts}';
+	</c:extBootstrap>
+	
+</apex:page>
