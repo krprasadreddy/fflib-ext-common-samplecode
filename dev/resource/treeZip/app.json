@@ -1,6 +1,8 @@
 {
    "name": "Tree",
-   "requires": [],
+   "requires": [
+      "fflib-ext-common"
+   ],
    "id": "2c9fcf7e-cb4d-4f4f-acfd-64158804d5c1",
    "resources": [],
    "_architect": {

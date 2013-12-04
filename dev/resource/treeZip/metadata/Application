@@ -10,8 +10,11 @@
             "Account"
         ],
         "name": "Tree",
+        "requires": [
+            "Fflib.data.proxy.VFRemote"
+        ],
         "stores": [
-            "AccountsStore"
+            "Accounts"
         ],
         "views": [
             "Grid"

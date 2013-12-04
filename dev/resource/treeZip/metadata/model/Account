@@ -34,6 +34,22 @@
                 "name": "Name"
             },
             "designerId": "825f024b-b110-41e9-b24a-278cfbfda748"
+        },
+        {
+            "type": "Ext.data.proxy.Direct",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "api": [
+                    "{read: $RemoteAction.AccountsController.readAccounts}"
+                ],
+                "designer|createAlias": "vfremote",
+                "designer|displayName": "AccountProxy"
+            },
+            "designerId": "8fd93b2e-579d-4ab3-a7ce-792c531d3987"
         }
     ]
 }

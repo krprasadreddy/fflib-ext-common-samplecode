@@ -1,0 +1,17 @@
+{
+    "type": "Ext.data.TreeStore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "defaultRootId": "000000000000000AAA",
+        "designer|userClassName": "Accounts",
+        "model": "Account",
+        "root": null,
+        "storeId": "Accounts"
+    },
+    "designerId": "ecbab9bf-e5b9-4d4e-9979-fb18b49abfff"
+}

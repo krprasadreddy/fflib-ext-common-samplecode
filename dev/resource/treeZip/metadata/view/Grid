@@ -8,12 +8,12 @@
     "userConfig": {
         "border": false,
         "designer|userClassName": "Grid",
-        "height": 250,
-        "margin": -10,
+        "height": 480,
+        "margin": null,
         "renderTo": null,
         "rootVisible": false,
-        "store": "AccountsStore",
-        "title": "My Tree Grid Panel",
+        "store": "Accounts",
+        "title": "Accounts",
         "width": null
     },
     "designerId": "12a22a3d-85da-4100-9c46-f205c684a5e4",
@@ -29,6 +29,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|displayName": "GridView",
                 "rootVisible": false
             },
             "designerId": "e8258660-931a-4b8a-879e-44c638525a65"
@@ -43,9 +44,26 @@
             "userConfig": {
                 "dataIndex": "Name",
                 "flex": 1,
-                "text": "Nodes"
+                "text": "Name"
             },
             "designerId": "c8a59418-30ca-4c5e-8ff3-e59269ca6fee"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTreepanelAfterRender",
+                "implHandler": [
+                    "component.expandAll();"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "designerId": "ba16f36d-fb7e-471d-bd5c-d152e94dff00"
         }
     ]
 }
