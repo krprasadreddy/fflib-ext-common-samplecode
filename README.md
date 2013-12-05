@@ -1,7 +1,7 @@
 fflib-ext-common-samplecode
 ===========================
 
-@author Matt Bingham <mbingham@financialforce.com>
+@author Matt Bingham <mbingham@tunzy.com>
 
 This sample code demonstrates a Salesforce-integrated Sencha application which uses our JavaScript Remoting proxy.
 
