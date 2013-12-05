@@ -30,3 +30,5 @@ We carefully align the Sencha client with the Salesforce service so that there i
 - no need for client-specific wrapper objects in the service,
 - no need for server-side marshalling of edge cases (eg root node),
 - no need for error handling other than that provided by the Visualforce Remoting Manager,
+
+Use [Sencha Architect 3](www.sencha.com/products/architect/download/) to build the project, then run `ant sencha` with [Sencha Cmd 4](http://www.sencha.com/products/sencha-cmd/download) installed.
